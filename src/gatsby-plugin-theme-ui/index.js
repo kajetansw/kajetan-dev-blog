@@ -39,8 +39,12 @@ export default {
   },
   fonts: {
     ...chronoblogTheme.fonts,
-    body: 'Merriweather,Georgia,serif',
-    heading: 'inherit',
+    body: 'Open Sans, Merriweather, Georgia, sans-serif',
+    heading: 'Montserrat, Merriweather, Georgia, sans-serif',
     monospace: 'Menlo, monospace'
+  },
+  lineHeights: {
+    body: 1.5,
+    heading: 1.125
   }
 };
