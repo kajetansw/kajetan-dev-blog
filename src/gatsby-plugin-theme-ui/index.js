@@ -5,12 +5,12 @@ export default {
   initialColorMode: 'light',
   colors: {
     ...chronoblogTheme.color,
-    text: '#222',
-    background: '#fff',
+    text: '#202231',
+    background: '#F2F4FC',
     link: '#3d7e9a',
     primary: '#3a5f7d',
     secondary: '#5a809e',
-    muted: '#dae1e3',
+    muted: '#d4dcfc',
     modes: {
       ...chronoblogTheme.colors.modes,
       dark: {
