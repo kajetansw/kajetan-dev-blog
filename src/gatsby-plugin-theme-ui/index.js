@@ -15,13 +15,14 @@ export default {
       ...chronoblogTheme.colors.modes,
       dark: {
         ...chronoblogTheme.colors.modes.dark,
-        text: '#eaeaea',
-        background: '#0e0f17',
-        muted: '#161b1d'
+        text: '#E4E7EB',
+        background: '#1D2025',
+        muted: '#1F2933'
       }
     }
   },
-  fontSizes: [14, 16, 18, 20, 22, 24, 28, 36],
+  fontSizes: [12, 14, 16, 18, 20, 22, 26, 34],
+  space: [0, 4, 8, 16, 32, 64, 128, 256, 512],
   borderRadius: {
     ...chronoblogTheme.borderRadius,
     card: 6,
