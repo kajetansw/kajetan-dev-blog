@@ -16,8 +16,9 @@ export default {
       dark: {
         ...chronoblogTheme.colors.modes.dark,
         text: '#E4E7EB',
+        link: '#4293bf',
         background: '#1D2025',
-        muted: '#1F2933'
+        muted: '#2f3a4c'
       }
     }
   },
