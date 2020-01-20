@@ -1,6 +1,6 @@
 ---
 title: 'Ghost Post'
-cover: ./image.png
+cover: ./writing1.jpg
 date: 2010-01-01
 link: http://example.com
 slug: invisible-ghost-post
