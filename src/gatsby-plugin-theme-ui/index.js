@@ -22,7 +22,7 @@ export default {
       }
     }
   },
-  fontSizes: [12, 14, 16, 18, 20, 22, 26, 34],
+  fontSizes: [12, 14, 16, 16, 20, 22, 26, 34],
   space: [0, 4, 8, 16, 32, 64, 128, 256, 512],
   borderRadius: {
     ...chronoblogTheme.borderRadius,
