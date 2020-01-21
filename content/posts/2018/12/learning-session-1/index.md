@@ -1,6 +1,6 @@
 ---
 title: 'Learning Session #1'
-cover: ''
+cover: ""
 date: 2018-12-29
 description: Spend time with me by learning new things in this 1st Learning Session!
 tags: ['learningsession', 'angular', 'javascript', 'typescript', 'css']

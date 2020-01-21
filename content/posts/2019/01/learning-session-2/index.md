@@ -1,6 +1,6 @@
 ---
 title: 'Learning Session #2'
-cover: ''
+cover: ""
 date: 2019-01-17
 description: Spend time with me by learning new things in this 2nd Learning Session!
 tags: ['learningsession', 'git', 'react', 'security', 'java', 'typescript']

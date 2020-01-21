@@ -1,6 +1,6 @@
 ---
 title: "Learning Session #3 - January's Meetups"
-cover: ''
+cover: ""
 date: 2019-02-06
 description: Spend time with me by learning new things in this 3rd Learning Session!
 tags: ['learningsession', 'meetup', 'javascript', 'graphql']

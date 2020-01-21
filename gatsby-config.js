@@ -57,15 +57,16 @@ module.exports = {
     {
       resolve: `gatsby-plugin-manifest`,
       options: {
-        name: `kajetan.dev blog`,
+        name: `kajetan.dev`,
         short_name: `kajetan.dev`,
         start_url: `/`,
         background_color: `#fff`,
-        theme_color: `#3a5f7d`,
+        theme_color: `#2F3A4C`,
         display: `standalone`,
         icon: `src/assets/favicon.png`
       }
     },
+    `gatsby-plugin-offline`,
     {
       resolve: `gatsby-plugin-sitemap`
     },

@@ -1,6 +1,6 @@
 ---
 title: "Learning Session #4 - January's Meetups, Part 2"
-cover: ''
+cover: ""
 date: 2019-02-17
 description: Spend time with me by learning new things in this 4th Learning Session!
 tags: ['learningsession', 'meetup', 'typescript', 'angular']
