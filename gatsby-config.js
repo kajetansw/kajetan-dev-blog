@@ -1,7 +1,7 @@
 module.exports = {
   siteMetadata: {
     siteTitle: 'kajetan.dev',
-    siteDescription: 'Blog for everyone who loves learning new things!',
+    siteDescription: 'A personal blog about my experiences with software development. If you enjoy learning new things, this is the place for you!',
     siteImage: '/banner.png', // main image of the site for metadata
     siteUrl: 'https://kajetan.dev/',
     pathPrefix: '/',
