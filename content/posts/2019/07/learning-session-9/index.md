@@ -2,7 +2,7 @@
 title: "Learning Session #9"
 date: 2019-07-21
 description: Spend time with me by learning new things in this 9th Learning Session!
-tags: ['learningsession']
+tags: ['learningsession', 'javascript', 'typescript', 'tools']
 ---
 
 ---
