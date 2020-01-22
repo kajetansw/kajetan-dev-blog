@@ -10,7 +10,7 @@ export default {
     link: '#3d7e9a',
     primary: '#3a5f7d',
     secondary: '#5a809e',
-    muted: '#d4dcfc',
+    muted: '#bfcdff',
     modes: {
       ...chronoblogTheme.colors.modes,
       dark: {

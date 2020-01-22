@@ -2,7 +2,7 @@
 title: "Learning Session #5"
 date: 2019-03-04
 description: Spend time with me by learning new things in this 5th Learning Session!
-tags: ['learningsession', 'meetup', 'npm', 'yarn', 'java', 'javascript', 'typescript']
+tags: ['learningsession', 'npm', 'yarn', 'java', 'javascript', 'typescript']
 ---
 
 ---
