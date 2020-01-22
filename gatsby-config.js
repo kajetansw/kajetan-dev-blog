@@ -1,9 +1,9 @@
 module.exports = {
   siteMetadata: {
     siteTitle: 'kajetan.dev',
-    siteDescription: 'Blog for everyone who loves to learn new things!',
+    siteDescription: 'Blog for everyone who loves learning new things!',
     siteImage: '/banner.png', // main image of the site for metadata
-    siteUrl: 'https://chronoblog.now.sh/',
+    siteUrl: 'https://kajetan.dev/',
     pathPrefix: '/',
     siteLanguage: 'en',
     ogLanguage: `en_US`,
