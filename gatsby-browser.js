@@ -1,5 +1,5 @@
 exports.onServiceWorkerUpdateReady = () => {
-  if (confirm('New version of this site is available!\n\nWould you like to load it now?')) {
+  if (confirm('A new version of this site is available!\n\nWould you like to load it now?')) {
     window.location.reload(true);
   }
 };
