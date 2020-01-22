@@ -58,7 +58,11 @@ For the last part, I would like to give you some advices, which might just save 
 
 ## Which language to pick to start my journey with FP?
 
-I think there is no bad answer here. You should think about what you would like to do build the language first. If you want to create some web application – maybe try Elm. I personally started with Elm and I’m creating some simple recipe app as an exercise. If you want to create for the web you might as well use Elixir, which can handle both front-end and back-end with its own Phoenix Framework. If you want to dive deep into the theory of FP you can use PureScript (which is my next personal pick) or Haskell. (PureScript seems more attractive to me just because it compiles to JS and uses the same ecosystem.) If you have JS background and don’t want to learn any new language you can use FP libraries for JavaScript (Ramda) or TypeScript (fp-ts). There are also JS frameworks that use FP for building for the web, e.g. MarbleJS (REST API) or CycleJS (web apps).
+I think there is no bad answer here. You should think about what you would like to do build the language first. If you want to create some web application – maybe try Elm. I personally started with Elm and I’m creating some simple recipe app as an exercise. 
+
+If you want to create for the web you might as well use Elixir, which can handle both front-end and back-end with its own Phoenix Framework. If you want to dive deep into the theory of FP you can use PureScript (which is my next personal pick) or Haskell. (PureScript seems more attractive to me just because it compiles to JS and uses the same ecosystem.) 
+
+If you have JS background and don’t want to learn any new language you can use FP libraries for JavaScript (Ramda) or TypeScript (fp-ts). There are also JS frameworks that use FP for building for the web, e.g. MarbleJS (REST API) or CycleJS (web apps).
 
 ---
 
