@@ -17,9 +17,9 @@ Shall we start, then?
 
 **\>> [“Notes on TypeScript: Pick, Exclude and Higher Order Components” by A. Sharif](https://dev.to/busypeoples/notes-on-typescript-pick-exclude-and-higher-order-components-40cp)**
 
-Here is a good example of using Pick, Exclude and Omit types in the TS which helps you create new types based on existing ones by extracting certain properties.
+Here is a good example of using `Pick`, `Exclude` and `Omit` types in the TS which helps you create new types based on existing ones by extracting certain properties.
 
-There can be many use cases for that, for me, it was creating a type with Omit, which was based on an existing business model and then used in Angular’s reactive form.
+There can be many use cases for that, for me, it was creating a type with `Omit`, which was based on an existing business model and then used in Angular’s reactive form.
 
 For the other reason entirely I’ve also written a type that creates union type from keys which extend Date interface:
 
@@ -31,11 +31,11 @@ type DatePropertyNames<T> = {
 
 \>> [`unknown` type](https://www.typescriptlang.org/docs/handbook/release-notes/typescript-3-0.html#new-unknown-top-type)
 
-Fairly new unknown type in TS lets you forget about any type and its inabilities. The difference is slight but significant.
+Fairly new `unknown` type in TS lets you forget about `any` type and its inabilities. The difference is slight but significant.
 
-Value of type any can be assigned to anything and anything can be assigned to this value. Value of unknown type CANNOT be assigned to anything, but anything can be assigned to the value.
+Value of type `any` can be assigned to anything and anything can be assigned to this value. Value of `unknown` type CANNOT be assigned to anything, but anything can be assigned to the value.
 
-That is powerful, because it is more type-safe, even if it still is somewhat “any”. With that, we can forget with bad practices of using any and related errors.
+That is powerful, because it is more type-safe, even if it still is somewhat “any”. With that, we can forget with bad practices of using `any` and related errors.
 
 **\>> [TSLint rule: member-ordering](https://palantir.github.io/tslint/rules/member-ordering/)**
 
@@ -47,7 +47,7 @@ This a really nice article introduces you to the world of custom TSLint rules. W
 
 **\>> [“lodash-decorators” npm package](https://www.npmjs.com/package/lodash-decorators)**
 
-The cool thing I found recently is the utility decorators for JavaScript (apparently also for TypeScript) based on popular lodash library. Here you can find decorators like @Memoize or @Bind.
+The cool thing I found recently is the utility decorators for JavaScript (apparently also for TypeScript) based on popular lodash library. Here you can find decorators like `@Memoize` or `@Bind`.
 
 ---
 

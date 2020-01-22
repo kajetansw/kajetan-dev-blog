@@ -37,7 +37,7 @@ After reading those articles I really think I got a bit better understanding of 
 
 This week I was facing a problem with navbar component: a user had to make almost pixel-perfect moves to display menu items, sub-items, etc. One unintentional move to the side with a cursor and the menu was disappearing. That is obviously a UX problem which had to be fixed. 
 
-I used CSS transition to manipulate the visibility property of an element with transition-delay on hover. One warning though: it doesn’t work with display property.
+I used CSS `transition` to manipulate the visibility property of an element with `transition-delay` on hover. One warning though: it doesn’t work with `display` property.
 
 **\>> [A Complete Guide to Flexbox](https://css-tricks.com/snippets/css/a-guide-to-flexbox/)**
 

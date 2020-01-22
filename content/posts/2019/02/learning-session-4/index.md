@@ -50,11 +50,11 @@ Damian presented us use cases for map types in TS that he and his team uses in t
 #### Speech #1: “RxCoffeeShop” by Chris Trześniewski
 Another edition of one of my favorites meetups started with talk about RxJS. Chris showed us the power of this library using an application that was simulation of working coffee shop, hence the name. During that time he reviewed useful RxJS operators that he used. Some of them were:
 
-- scan – it operates somewhat like reduce() for arrays in JS, it accumulates values over given accumulator function and returns current accumulation when new value is emitted.
-- share – it shares original observable value between all subscribers.
-- merge – it merges observables and emits values when they are emitted from either of those.
-- zip – emits all observable values as an array after emit has ended.
-- mapTo – map emitted value to constant value.
+- `scan` – it operates somewhat like reduce() for arrays in JS, it accumulates values over given accumulator function and returns current accumulation when new value is emitted.
+- `share` – it shares original observable value between all subscribers.
+- `merge` – it merges observables and emits values when they are emitted from either of those.
+- `zip` – emits all observable values as an array after emit has ended.
+- `mapTo` – map emitted value to constant value.
 
 Another thing that I have learned is that there is testing library for RxJS which is called rxjs-marbles.
 

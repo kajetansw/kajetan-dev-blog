@@ -84,11 +84,11 @@ declare const Book: BookConstructor;
 
 \>> [Implementing “Copy To Clipboard” button for input field](https://stackoverflow.com/questions/400212/how-do-i-copy-to-the-clipboard-in-javascript/30810322#30810322)
 
-Here I found a thorough explanation of how to implement “Copy to Clipboard” functionality in JS. There are basically 3 ways and they are basically as good as the other, but they differ in browser compatibility. I personally used document.execCommand(‘copy’) option, because it worked well under IE11.
+Here I found a thorough explanation of how to implement “Copy to Clipboard” functionality in JS. There are basically 3 ways and they are basically as good as the other, but they differ in browser compatibility. I personally used `document.execCommand(‘copy’`)` option, because it worked well under IE11.
 
 \>> [“How to check if a JavaScript object property is undefined” by Flavio Copes](https://flaviocopes.com/how-to-check-undefined-property-javascript/)
 
-When using TypeScript I always used if (object.property) doSth(); syntax to check whether a property holds truthy value. Nothing is wrong with that of course, but it didn’t work in the one particular case.
+When using TypeScript I always used `if (object.property) doSth();` syntax to check whether a property holds truthy value. Nothing is wrong with that of course, but it didn’t work in the one particular case.
 
 Recently I made a mistake by assuming, that code above would also check whether the property of such name exists on object altogether. Well, wrong. In that case, JS engine would throw ReferenceError, because we are referring non-existing property.
 

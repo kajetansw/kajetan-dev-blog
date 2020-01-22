@@ -70,9 +70,9 @@ I saw that there is an already rough discussion on that topic going on. People w
 
 **\>> [Promise: then() + error callback vs catch()](https://stackoverflow.com/a/33278420)**
 
-Interesting thread on using one of many Promises’ features. I was wondering what’s the difference between using error callback in then() or just using catch().
+Interesting thread on using one of many Promises’ features. I was wondering what’s the difference between using error callback in `then()` or just using catch().
 
-TL;DR: Using error callback might miss error that would occur in handler inside then(). So… If we want to handle errors properly we should always use catch(), right? Yup, JS is weird.
+TL;DR: Using error callback might miss error that would occur in handler inside `then()`. So… If we want to handle errors properly we should always use catch(), right? Yup, JS is weird.
 
 **\>> [Does unresolved Promise cause memory leak?](https://stackoverflow.com/questions/20068467/does-never-resolved-promise-cause-memory-leak)**
 

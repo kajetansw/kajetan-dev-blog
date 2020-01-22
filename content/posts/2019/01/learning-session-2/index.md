@@ -47,11 +47,11 @@ Recently I have started “Web Applications Security” course path on Pluralsig
 
 Document itself has only 25 pages and contains all information about the topic. It may be an interesting read for all web developers.
 
-\>> [“Do not EVER use eval()!”](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/eval)
+\>> [“Do not EVER use `eval()`!”](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/eval)
 
-eval() is pretty simple function in JavaScript that executes string that is passed to it as a JS code. It dates back to the ECMAScript 1 standard from 1997. And everyone in 2019 must be thinking: “Who and why invented and implemented such monstrosity?”. Today a common sense is not to use this function because of one simple reason: cross-site scripting.
+`eval()` is pretty simple function in JavaScript that executes string that is passed to it as a JS code. It dates back to the ECMAScript 1 standard from 1997. And everyone in 2019 must be thinking: “Who and why invented and implemented such monstrosity?”. Today a common sense is not to use this function because of one simple reason: cross-site scripting.
 
-I can’t imagine a use case for eval() anyway and can only imagine how to implement it securely. In that case I just won’t use it and even forget that it ever existed!
+I can’t imagine a use case for `eval()` anyway and can only imagine how to implement it securely. In that case I just won’t use it and even forget that it ever existed!
 
 \>> [SQL Injection Attack](https://www.veracode.com/security/sql-injection)
 
@@ -99,10 +99,10 @@ During my learning of TS I found it extremely important to understand concept of
 A little more learning material to be processed here, but important nonetheless. TypeScript is strongly oriented on type checking and has many tools for us developers to rely on. The most interesting ones I found here are:
 
 - Union types - let us declare that a variable can be of multiple types;
-- Type guards – narrow down type of object and create a condition, examples are typeof, instanceof and user-define type guards (which can be pretty hard to understand at first);
+- Type guards – narrow down type of object and create a condition, examples are `typeof`, `instanceof` and custom type guards (which can be pretty hard to understand at first);
 - Literal types - define strings or numbers as a union type of values that are enabled for a variable, somewhat like enum type;
 - Polymorphic this types – use this keyword as a type to enable classes extending our class to use methods returning this;
 - Type aliases – allow us to create new names for types, I used it couple of times to create type for my union types, so they could be used in multiple places. You can also create generic types and even nest themselves as a property. But the mind-blowing parts come next… 
-- Index types – it dynamically checks attributes of an object and treats them as type (or union types) themselves. It uses keyof keyword to do just that;
+- Index types – it dynamically checks attributes of an object and treats them as type (or union types) themselves. It uses `keyof` keyword to do just that;
 - Mapped types – patterns that enable us to create new types out of existing types or interfaces;
 - Predefined conditional types.
