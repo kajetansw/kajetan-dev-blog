@@ -6,11 +6,11 @@ export default {
   colors: {
     ...chronoblogTheme.color,
     text: '#202231',
-    background: '#F2F4FC',
+    background: '#e6f0f7',
     link: '#3d7e9a',
     primary: '#3a5f7d',
     secondary: '#5a809e',
-    muted: '#bfcdff',
+    muted: '#a2d3f2',
     modes: {
       ...chronoblogTheme.colors.modes,
       dark: {
