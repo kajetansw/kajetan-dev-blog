@@ -2,16 +2,16 @@ module.exports = {
   siteMetadata: {
     siteTitle: 'kajetan.dev',
     siteDescription: 'A personal blog about my experiences with software development. If you enjoy learning new things, this is the place for you!',
-    siteImage: '/banner.png', // main image of the site for metadata
+    siteImage: '/banner.png',
     siteUrl: 'https://kajetan.dev/',
     pathPrefix: '/',
     siteLanguage: 'en',
     ogLanguage: `en_US`,
-    author: 'Kajetan Świątek', // for example - 'Ivan Ganev'
+    author: 'Kajetan Świątek',
     authorDescription: 'Angular Developer, coding nerd, learning-new-stuff lover.',
     avatar: '/avatar.jpg',
-    twitterSite: '', // website account on twitter
-    twitterCreator: '', // creator account on twitter
+    twitterSite: '',
+    twitterCreator: '',
     social: [
       {
         icon: `twitter`,
@@ -32,14 +32,12 @@ module.exports = {
       resolve: 'gatsby-theme-chronoblog',
       options: {
         uiText: {
-          // ui text fot translate
           feedShowMoreButton: 'show more',
           feedSearchPlaceholder: 'search',
           cardReadMoreButton: 'read more →',
           allTagsButton: 'all tags'
         },
         feedItems: {
-          // global settings for feed items
           limit: 7,
           yearSeparator: true,
           yearSeparatorSkipFirst: true,
