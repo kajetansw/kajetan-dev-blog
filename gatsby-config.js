@@ -1,6 +1,6 @@
 module.exports = {
   siteMetadata: {
-    siteTitle: 'kajetan.dev',
+    siteTitle: 'kajetan.dev | Kajetan Świątek\'s blog',
     siteDescription: 'A personal blog about my experiences with software development. If you enjoy learning new things, this is the place for you!',
     siteImage: '/banner.png',
     siteUrl: 'https://kajetan.dev/',
