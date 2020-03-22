@@ -12,15 +12,18 @@
     "start": "gatsby develop"
   },
   "dependencies": {
-    "gatsby": "^2.18.7",
-    "gatsby-plugin-google-analytics": "^2.1.23",
+    "@emotion/core": "^10.0.28",
+    "@emotion/styled": "^10.0.27",
+    "gatsby": "^2.20.2",
+    "gatsby-plugin-emotion": "^4.2.0",
+    "gatsby-plugin-google-analytics": "^2.2.0",
     "gatsby-plugin-google-fonts": "^1.0.1",
-    "gatsby-plugin-manifest": "^2.2.27",
-    "gatsby-plugin-offline": "^3.0.32",
-    "gatsby-plugin-sitemap": "^2.2.21",
-    "gatsby-theme-chronoblog": "^0.16.0",
-    "react": "^16.12.0",
-    "react-dom": "^16.12.0"
+    "gatsby-plugin-manifest": "^2.3.1",
+    "gatsby-plugin-offline": "^3.1.0",
+    "gatsby-plugin-sitemap": "^2.3.0",
+    "gatsby-theme-chronoblog": "^0.17.0",
+    "react": "^16.13.1",
+    "react-dom": "^16.13.1"
   },
   "devDependencies": {
     "eslint": "^6.6.0",
