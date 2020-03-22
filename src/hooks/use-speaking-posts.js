@@ -3,7 +3,10 @@ import { useStaticQuery, graphql } from 'gatsby';
 const useSpeakingPosts = () => {
   const data = useStaticQuery(graphql`
     query MyQuery {
-      allMdx(filter: { frontmatter: { tags: { eq: "speaking" } } }) {
+      allMdx(
+        filter: { frontmatter: { tags: { eq: "speaking" } } }
+        sort: { fields: frontmatter___date, order: DESC }
+      ) {
         nodes {
           fields {
             slug
