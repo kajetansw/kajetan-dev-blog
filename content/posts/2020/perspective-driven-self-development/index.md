@@ -34,7 +34,7 @@ Wider perspective boosts up your confidence - you seem to have more answers on a
 
 Another thing is, that if you're just starting your journey in tech, this idea can help you get a sense of yourself. You'll start to get a hang of what are the things that bring you joy and you can just dive deeper into them. 
 
-It's worth to mention that Perspective-Driven Development is highly compatible with the "Learn in Public" idea ([https://www.swyx.io/writing/learn-in-public/](https://www.swyx.io/writing/learn-in-public/)) by [swyx](https://twitter.com/swyx). While trying out new things and broadening your perspective you can use your newly acquired knowledge, e.g. build something fun and share it with others. You can do it via blog posts, talk at the meetup, a tutorial video - the floor is yours.
+It's worth to mention that Perspective-Driven Development is highly compatible with the [Learn in Public](https://www.swyx.io/writing/learn-in-public/) concepts by [swyx](https://twitter.com/swyx). While trying out new things and broadening your perspective you can use your newly acquired knowledge, e.g. build something fun and share it with others. You can do it via blog posts, talk at the meetup, a tutorial video - the floor is yours.
 
 ---
 
