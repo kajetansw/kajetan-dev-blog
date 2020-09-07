@@ -1,0 +1,35 @@
+---
+title: "\"Going zone-less with Angular's reactive extensions\" talk" 
+description: Introduction to zone-related problems and how to deal with them.
+date: 2020-08-21
+tags: ['speaking']
+---
+
+# Going zone-less with Angular's reactive extensions
+##### July 21, 2020 | [Aptitude Software's](http://twitter.com/AptitudeSW) office
+---
+
+- 📊 **Slides**: https://slides.com/kajetansw/rx-angular-zone-less
+- ⌚ **Duration**: ~30 minutes
+- 👨‍💻 **Form**: talk + live coding
+
+---
+
+Angular's change detection relies heavily on the Zone.js. Zone wraps asynchronous tasks happening in our Angular 
+applications and triggers change detection almost "automagically".
+
+Most of the time it's a great reliever for every Angular developer: we don't have to worry about triggering change detection 
+ourselves - the framework does it for us. Although the Angular team did a great job of optimizing this solution, we subconsciously 
+know that to every solution there are always some caveats. This is sadly not an exception.
+
+This talk presents a few problems we have to face when dealing with Zone.js and change detection and what are the conditions that
+lead to those. A solution for those problems is also presented: those that come straight from the core Angular and those provided
+by external libraries.
+
+---
+
+### Outline
+- a quick Zone.js and change detection remainder 
+- problems with Zone.js and Angular's change detection
+- possible solutions from the core Angular
+- external libraries as solutions
