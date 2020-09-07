@@ -1,7 +1,7 @@
 ---
 title: 'Level up your TypeScript code by using... Elm? (Part 2)'
 date: 2020-03-09
-cover: ./level-up3.PNG
+cover: ./level-up3.jpg
 description: Second part of my tips on improving TypeScript code by using common Elm features. 
 tags: ['typescript', 'javascript', 'elm', 'functionalprogramming']
 ---
