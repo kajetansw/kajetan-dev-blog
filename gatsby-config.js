@@ -8,7 +8,7 @@ module.exports = {
     siteLanguage: 'en',
     ogLanguage: `en_US`,
     author: 'Kajetan Świątek',
-    authorDescription: 'Angular Developer, coding nerd, learning-new-stuff lover.',
+    authorDescription: 'Front-end Developer, coding nerd, learning-new-stuff lover.',
     avatar: '/avatar.jpg',
     twitterSite: '',
     twitterCreator: '',
