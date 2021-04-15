@@ -60,7 +60,7 @@ So, what is the first reason why I fell in love with React so that I decided to 
 
 Now I stirred things up! Let me explain - being "opinionated" is a power, but also a curse at the same time. It depends on perspective. Some people would find it refreshing to be stripped of some responsibilities, like coming up with a technological stack or project's architecture. On the other side of the barricade are people who enjoy the freedom of choosing their perfect and polished stack and practices, refined over the years.
 
-How does it look with React? The structure of our project, what tooling to use, how to make HTTP calls, which testing framework to use - things like that are totally up to us. Which approach is better? That depends. (Haha.) That depends on your needs, experience and, overall "beliefs".
+How does it look with React? The structure of our project, what tooling to use, how to make HTTP calls, which testing framework to use - things like that are totally up to us. Which approach is better? That depends. (Haha.) That depends on your needs, experience and overall "beliefs".
 
 From my point of view, after 2.5 years of working in front-end, I feel I started to mature and to establish my own ways I want to do things. There is nothing more enjoyable for me than working daily with a stack you feel the most powerful. (Recently I fell in love with a 
 [NextJS](https://nextjs.org/) + [ChakraUI](https://chakra-ui.com/) + 
