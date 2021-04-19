@@ -50,9 +50,51 @@ Insightful and fun talk on how FP relates to OOP’s principles and patterns.
 
 That is my favorite resource on this list. If you have a JavaScript background (like me) it’s an excellent tutorial. Due to being a multi-paradigm language, it’s super easy to explain FP using JS. I took my time with this book thoroughly re-reading chapters and examining examples. I think nothing else deepened my knowledge of the topic like this book, especially due to many practical examples. I recommend reading it through GitBooks – there you can do all the exercises inside your browser, without cloning the entire repository.
 
+**\>> [Functional Programming Slack](https://functionalprogramming.slack.com/)**
+
+This Slack is open to everyone interested. It contains a lot of channels e.g. for
+JavaScript, TypeScript, Haskell (beginners and advanced), PureScript, fp-ts etc. It's worth to visit it once in a while to 
+just read threads and get familiar with problems FP developers face - you can learn from it too! Of course, you
+can also ask questions there if you have any problems with learning or building your project.
+
+
 Those are the most important resources I found to this day about the FP. If you know other interesting resources, don’t hesitate to share them with me and others 😊
 
 For the last part, I would like to give you some advices, which might just save you time googling 😉
+
+
+---
+
+## 🏆 BONUS 🏆
+
+> This section contains bonus materials for every fan of TypeScript that wants to see how to start with FP in TS.
+
+> ⚠️ Warning <br/> I suggest getting familiar with basic principles of FP, e.g. by reading or watching above materials,
+before you dive into those below.
+
+**\>> [`fp-ts`](https://github.com/gcanti/fp-ts)**
+
+This is probably the most popular and compound library for doing FP in TypeScript. The library is 
+enormous and contains a lot of useful abstractions. Even if there's something missing, `fp-ts` provides extensibility 
+in the form of rich [ecosystem of sub-libraries](https://gcanti.github.io/fp-ts/ecosystem/).
+
+
+**\>> ["Practical Guide to Fp-ts" by Ryan Lee](https://rlee.dev/writing/practical-guide-to-fp-ts-part-1)**
+
+A multi-part series of articles by Ryan Lee basic FP abstractions using `fp-ts`.
+
+
+**\>> ["Introduction to functional programming" by Giulio Canti](https://github.com/enricopolanski/functional-programming)**
+
+The link above redirects to English translation of Giulio Canti's book made by Enrico Polanski.
+
+
+**\>> [`effect-ts`](https://github.com/Effect-TS/core)** - FP library for TypeScript
+
+`effect-ts` is another FP library with a slightly different approach than the previous one. It is a port of Scala's 
+[ZIO](https://zio.dev/).  If you'd like to know more you can see the [presentation made by the author of the `effect-ts`](https://www.youtube.com/watch?v=LhCPPrxUUNM)
+on that topic.
+
 
 ---
 
