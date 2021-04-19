@@ -65,11 +65,11 @@ For the last part, I would like to give you some advices, which might just save 
 
 ---
 
-## 🏆 BONUS 🏆
+## (Optional) Bonus materials for TypeScript developers
 
-> This section contains bonus materials for every fan of TypeScript that wants to see how to start with FP in TS.
+This section contains bonus materials for every fan of TypeScript that wants to see how to start with FP in TS.
 
-> ⚠️ Warning <br/> I suggest getting familiar with basic principles of FP, e.g. by reading or watching above materials,
+> ⚠️ I suggest getting familiar with basic principles of FP, e.g. by reading or watching above materials,
 before you dive into those below.
 
 **\>> [`fp-ts`](https://github.com/gcanti/fp-ts)**
