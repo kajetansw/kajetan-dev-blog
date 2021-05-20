@@ -192,7 +192,7 @@ With enum, you'd apply the change just on the value of enum's member. This resul
 
 ## Template Literal Types
 
-TLT can be created only as a union type ([docs](https://typescriptlang.org/docs/handbook/release-notes/typescript-4-1.html)).
+TLT can be created only as a union type ([docs](https://www.typescriptlang.org/docs/handbook/release-notes/typescript-4-1.html)).
 
 (Although, enums can be used as operands for template literal types. But see, that they are produced based on the value assigned to a member, not the enum member itself.)
 
@@ -247,7 +247,7 @@ Enums need to be imported in order to use them in other modules. You need to typ
 
 ## Support for other transpilers (e.g. Babel)
 
-Unions and enums pose no problems when using with different transpilers. On the other hand, const enums may cause some, as written [here](https://typescriptlang.org/tsconfig#isolatedModules).
+Unions and enums pose no problems when using with different transpilers. On the other hand, const enums may cause some, as written [here](https://www.typescriptlang.org/tsconfig#isolatedModules).
 
 ---
 
