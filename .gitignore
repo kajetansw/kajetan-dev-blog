@@ -54,7 +54,6 @@ yarn-error.log
 .yarn-integrity
 
 # lock
-yarn.lock
 package-lock.json
 
 # dotenv environment variables file
