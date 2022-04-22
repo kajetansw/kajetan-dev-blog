@@ -24,7 +24,10 @@ Solar Forms gives you abilities to:
 
 ## Introduction
 
-This article is a step-by-step guide to implementing basic registration form with SolidJS and Solar Forms.
+This article is a step-by-step guide to implementing basic registration form with [SolidJS](https://www.solidjs.com/) and [Solar Forms](https://github.com/kajetansw/solar-forms#readme). The 
+final result will work similar to this:
+
+<iframe src="https://stackblitz.com/edit/solid-vite-km8l2n?ctl=1&embed=1&file=src/index.tsx&view=preview" height="600px" width="100%"></iframe>
 
 With this example we will cover things like:
 - setting up a SolidJS project from scratch
@@ -33,13 +36,14 @@ With this example we will cover things like:
 - binding form group to a `form` element
 - creating inputs for your form
 - setting up validators for your form controls
+- checking if form is valid
 
 > ⚠️ Before diving into this guide you should be familiar with basics of web development like: NodeJS, npm,
 > HTML, CSS, components.
 
 First, let me introduce you briefly to tools we'll be working with!
 
-
+---
 
 ## What is SolidJS?
 
@@ -84,7 +88,7 @@ I very much encourage you to walk you through the [interactive tutorial](https:/
 for SolidJS and also to try out [examples](https://www.solidjs.com/examples/), if you haven't already, as in 
 next parts of this guide we will make use of SolidJS "signals" and "directives".
 
-
+---
 
 ## What is Solar Forms?
 
@@ -101,7 +105,7 @@ state for your form controls. Its core features are:
 
 If you'd like to see a detailed guide on Solar's API, please see [the documentation](https://github.com/kajetansw/solar-forms#documentation).
 
-
+---
 
 ## Setting up SolidJS project
 
@@ -127,7 +131,7 @@ export const App: Component = () => {
 
 This way we'll start off our work with clean slate.
 
-
+---
 
 ## Installing Solar Forms
 
@@ -136,6 +140,7 @@ To install Solar Forms library run this command in your terminal:
 npm i solar-forms
 ```
 
+---
 
 ## Creating form group
 
@@ -143,11 +148,11 @@ Form group is a fundamental concept in Solar Forms. Upon creation, it sets up al
 that can be later used as SolidJS signals.
 
 To create a form group, you can use the `createFormGroup` function. This function accepts one argument, and that
-is and object representing desired structure of your form:
+is an object representing desired structure of your form:
 ```tsx
 export const App: Component = () => {
   const fg = createFormGroup({
-    firstName: ""
+    firstName: ''
   });
 
   return 'hello world!';
@@ -163,8 +168,9 @@ It does a couple of things:
 > 💡**Tip**: Form controls are accepting `null` as value as well! Although to change the form control value later, 
 > you'd need to declare the default value as a union type of desired type and null, e.g. `string | null`.
 
-Let's now see how to bind our form group to the `form` element.
+Let's now see how to bind our form group to the `<form>` element.
 
+---
 
 ## Binding form group with `formGroup` directive
 
@@ -193,6 +199,7 @@ we set up two-way binding between the form and our form group holding reactive f
 
 But how do we let the `formGroup` directive know, which form control belongs to which form input element?
 
+---
 
 ## Assigning form control to form element with `formControlName`
 
@@ -237,6 +244,7 @@ When using `formControlName` attribute on our form inputs, we assign to it a nam
 
 This way we're done with setting up form group and binding it to our form and form inputs.
 
+---
 
 ## Setting up multiple form controls
 
@@ -284,6 +292,7 @@ to an element that is of `type="number"`. Number inputs are not expected to be m
 If you'd like to see what input types match with which data types, please refer to the 
 [dedicated section of docs](https://github.com/kajetansw/solar-forms#binding-form-controls-to-different-types-of-input-elements).
 
+---
 
 ## Updating form values
 
@@ -364,6 +373,7 @@ export const App: Component = () => {
 };
 ```
 
+---
 
 ## Validating form values
 
@@ -487,11 +497,15 @@ export const App: Component = () => {
 };
 ```
 
+---
+
 ## Other form group and form control properties
 
 This example does not cover all properties that is provided by Solar's form group. If you'd like 
 to learn more about superpowers that you gain from Solar, pleas refer to 
 [this section of our docs](https://github.com/kajetansw/solar-forms#managing-disabled-form-control-property).
+
+---
 
 ## Conclusion
 
@@ -508,7 +522,7 @@ for registration form.
 
 I hope you found this guide useful, thanks for your time!
 
-
+---
 
 ## 🏆 Solid Hack 2022
 
@@ -516,3 +530,5 @@ I hope you found this guide useful, thanks for your time!
 
 This project was submitted for the [SolidHack 2022](https://hack.solidjs.com/) competition, so if you like it,
 you can place your vote for it [here](https://hack.solidjs.com/submissions). Thanks!
+
+---
