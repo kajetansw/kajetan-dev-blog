@@ -1,11 +1,10 @@
 {
-  "name": "chronoblog",
-  "version": "1.14.0",
+  "name": "kajetan.dev",
+  "version": "0.2.0",
   "private": true,
-  "description": "gatsby-starter-chronoblog",
+  "description": "Website for Kajetan Swiatek's blog",
   "keywords": [],
-  "license": "MIT",
-  "author": "Ivan Ganev <ganevio92@gmail.com>",
+  "author": "Kajetan Swiatek",
   "scripts": {
     "build": "gatsby build",
     "clean": "gatsby clean",
