@@ -12,9 +12,9 @@ There was a moment during past Learning Sessions when I declared, that I’ll sh
 
 ## The Beginning
 
-My first meaningful encounter with FP was during local [Wrocław TypeScript meetup](https://github.com/WrocTypeScript/past-events/blob/master/2019-03-27.md). There I got to hear [Józef Flakus](https://twitter.com/jozflakus) telling us about core concepts of the FP. We then got to the concept of FRP and how it is used in MarbleJS, the framework for creating server-side apps. In fact, Józef is the creator of this framework. It was really cool to hear his point of view. Those concepts were entirely new to me, because (as it turned out) I had 100% imperative programming mindset.
+My first meaningful encounter with FP was during local [Wrocław TypeScript meetup](https://github.com/WrocTypeScript/past-events/blob/master/2019-03-27.md). There I got to hear [Józef Flakus](https://twitter.com/jozflakus) telling us about core concepts of the FP. We then got to the concept of FRP (Functional-Reactive Programming) and how it is used in [MarbleJS](https://docs.marblejs.com/), the framework for creating server-side apps. In fact, Józef is the creator of this framework. It was really cool to hear his point of view. Those concepts were entirely new to me, because (as it turned out) I had 100% imperative programming mindset.
 
-The second talk that day was authored by [Tomasz Ducin](https://twitter.com/tomasz_ducin?ref_src=twsrc%5Egoogle%7Ctwcamp%5Eserp%7Ctwgr%5Eauthor). He showed us how we can implement functional composition in TypeScript. It was a brilliant live coding session but… I had no idea what he was talking about 😉 I was examining code created by Tomasz for the entire next day until I fully understood what was going on.
+The second talk that day was authored by [Tomasz Ducin](https://twitter.com/tomasz_ducin). He showed us how we can implement functional composition in TypeScript. It was a brilliant live coding session but… I had no idea what was going on 😉 (As it turned out I was lacking in knowledge of not only FP concepts, but also advanced types in TypeScript.) I was examining code created by Tomasz next day until I fully understood what was going on.
 
 But those talks did it for me. Something clicked and I started diving into FP world step by step for the next couple of months.
 
@@ -22,7 +22,7 @@ But those talks did it for me. Something clicked and I started diving into FP wo
 
 ## My First Resources 
 
-The first thing I did was looking into Awesome GitHub repository looking for some basic FP articles or videos. And I was not disappointed. I found two interesting sites: [Awesome Functional Programming](https://github.com/lucasviola/awesome-functional-programming#readme) and [Awesome FP JS](https://github.com/stoeffel/awesome-fp-js#readme). There you can find many reliable resources, but many of them seem really hardcore for people starting with FP, so tread carefully.
+The first thing I did was looking into [Awesome GitHub](https://github.com/sindresorhus/awesome) repository looking for some basic FP articles or videos. And I was not disappointed. I found two interesting sites: [Awesome Functional Programming](https://github.com/lucasviola/awesome-functional-programming#readme) and [Awesome FP JS](https://github.com/stoeffel/awesome-fp-js#readme). There you can find many reliable resources, but many of them seem really hardcore for people starting with FP, so tread carefully.
 
 There are also a couple of honorable articles/videos/tutorials that I want to share with you.
 
@@ -50,13 +50,17 @@ Insightful and fun talk on how FP relates to OOP’s principles and patterns.
 
 That is my favorite resource on this list. If you have a JavaScript background (like me) it’s an excellent tutorial. Due to being a multi-paradigm language, it’s super easy to explain FP using JS. I took my time with this book thoroughly re-reading chapters and examining examples. I think nothing else deepened my knowledge of the topic like this book, especially due to many practical examples. I recommend reading it through GitBooks – there you can do all the exercises inside your browser, without cloning the entire repository.
 
-**\>> [Functional Programming Slack](https://functionalprogramming.slack.com/)**
+**\>> Functional Programming channels**
 
-This Slack is open to everyone interested. It contains a lot of channels e.g. for
-JavaScript, TypeScript, Haskell (beginners and advanced), PureScript, fp-ts etc. It's worth to visit it once in a while to 
-just read threads and get familiar with problems FP developers face - you can learn from it too! Of course, you
-can also ask questions there if you have any problems with learning or building your project.
+I encourage you to join FP channels on either Slack or Discord. There are genereral FP channels out there, as well as ones related to specific languages and libraries, like PureScript or `fp-ts`. 
 
+It's worth to visit it once in a while to just read threads and get familiar with problems FP developers face - you can learn from it too! Of course, you can also ask questions there if you have any problems with learning or building your project.
+
+The list of channels I used or still use:
+- [Functional Programming Slack](https://functionalprogramming.slack.com/)
+- [Functional Programming Discord](https://discord.com/invite/eTbWSZj)
+
+---
 
 Those are the most important resources I found to this day about the FP. If you know other interesting resources, don’t hesitate to share them with me and others 😊
 
@@ -92,7 +96,7 @@ The link above redirects to English translation of Giulio Canti's book made by E
 **\>> [`effect-ts`](https://github.com/Effect-TS/core)** - FP library for TypeScript
 
 `effect-ts` is another FP library with a slightly different approach than the previous one. It is a port of Scala's 
-[ZIO](https://zio.dev/).  If you'd like to know more you can see the [presentation made by the author of the `effect-ts`](https://www.youtube.com/watch?v=LhCPPrxUUNM)
+[ZIO](https://zio.dev/). If you'd like to know more you can see the [presentation made by the author of the `effect-ts`](https://www.youtube.com/watch?v=LhCPPrxUUNM)
 on that topic.
 
 
@@ -102,9 +106,9 @@ on that topic.
 
 I think there is no bad answer here. You should think about what you would like to do build the language first. If you want to create some web application – maybe try Elm. I personally started with Elm and I’m creating some simple recipe app as an exercise. 
 
-If you want to create for the web you might as well use Elixir, which can handle both front-end and back-end with its own Phoenix Framework. If you want to dive deep into the theory of FP you can use PureScript (which is my next personal pick) or Haskell. (PureScript seems more attractive to me just because it compiles to JS and uses the same ecosystem.) 
+If you want to create for the web, you might as well use Elixir, which can handle both front-end and back-end with its own Phoenix Framework. If you want to dive deep into the theory of FP you can use PureScript (which is my next personal pick) or Haskell. (PureScript seems more attractive to me just because it compiles to JS and uses the same ecosystem.) 
 
-If you have JS background and don’t want to learn any new language you can use FP libraries for JavaScript (Ramda) or TypeScript (fp-ts). There are also JS frameworks that use FP for building for the web, e.g. MarbleJS (REST API) or CycleJS (web apps).
+If you have JS background and don’t want to learn any new language you can use FP libraries for JavaScript ([`Ramda`](https://ramdajs.com/)) or TypeScript ([`fp-ts`](https://gcanti.github.io/fp-ts/)). There are also JS frameworks that use FP for building for the web, e.g. MarbleJS (REST API) or CycleJS (web apps).
 
 ---
 
