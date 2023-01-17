@@ -8,6 +8,50 @@ tags: ['solidjs', 'fp-ts', 'functional programming', 'reactive programming']
 
 ---
 
+# Table of content:
+
+- [Introduction](#introduction)
+  * [Why? Just… Why?](#why-just-why)
+  * [The app](#the-app)
+  * [The stack](#the-stack)
+  * [The structure of this article](#the-structure-of-this-article)
+- [Learning Functional Programming with `fp-ts`](#learning-functional-programming-with-fp-ts)
+  * [A quick introduction](#a-quick-introduction)
+  * [Tool for the job](#tool-for-the-job)
+  * [Core concepts](#core-concepts)
+    + [Creating pipelines with `pipe` function](#creating-pipelines-with-pipe-function)
+    + [The not-so-scary land of functors](#the-not-so-scary-land-of-functors)
+    + [Your computations may fail - `Either` will tell you all about it](#your-computations-may-fail---either-will-tell-you-all-about-it)
+    + [I’ve got a `Task` for you, but do it async](#i-ve-got-a-task-for-you-but-do-it-async)
+    + [… But in the end, the task failed](#-but-in-the-end-the-task-failed)
+  * [The “functional” part of our app](#the-functional-part-of-our-app)
+    + [Closer look at Wikipedia API](#closer-look-at-wikipedia-api)
+    + [Fetching data the FP way](#fetching-data-the-fp-way)
+    + [Are you unsure about your data? Validate it with `zod`!](#are-you-unsure-about-your-data-validate-it-with-zod)
+    + [Share with care - mapping the data](#share-with-care---mapping-the-data)
+- [Learning Reactive Programming with SolidJS](#learning-reactive-programming-with-solidjs)
+  * [What is SolidJS and why should you choose it?](#what-is-solidjs-and-why-should-you-choose-it)
+  * [Tour around the codebase](#tour-around-the-codebase)
+  * [SolidJS and its fine-grained reactivity](#solidjs-and-its-fine-grained-reactivity)
+    + [What is reactivity or reactive programming?](#what-is-reactivity-or-reactive-programming)
+    + [How does SolidJS let you create reactive data…](#how-does-solidjs-let-you-create-reactive-data)
+    + [… and keep track of its changes?](#-and-keep-track-of-its-changes)
+    + [Control flow components](#control-flow-components)
+    + [Another ways of creating signals - deriving](#another-ways-of-creating-signals---deriving)
+    + [Another way of creating signals - custom primitives](#another-way-of-creating-signals---custom-primitives)
+  * [Let’s build our *solid* app](#let-s-build-our-solid-app)
+    + [Event binding in SolidJS](#event-binding-in-solidjs)
+    + [SolidJS has prepared us for the harsh, asynchronous world](#solidjs-has-prepared-us-for-the-harsh-asynchronous-world)
+    + [Building your own reactive primitives](#building-your-own-reactive-primitives)
+- [Tying this all up - functional and reactive](#tying-this-all-up---functional-and-reactive)
+  * [The missing piece - pattern matching](#the-missing-piece---pattern-matching)
+    + [Patterns, patterns everywhere - explaining the concept](#patterns-patterns-everywhere---explaining-the-concept)
+    + [Pattern matching in TypeScript? I’m sold!](#pattern-matching-in-typescript-i-m-sold)
+  * [Finishing the app - providing different view for different pattern](#finishing-the-app---providing-different-view-for-different-pattern)
+- [Conclusion](#conclusion)
+
+---
+
 # Introduction
 
 <br/>
@@ -1073,7 +1117,7 @@ You can find another example of a component  in our application in `src/App.tsx`
 There you can see that the `App` function returns a HTML:
 
 ```tsx
-// arc/App.tsx
+// src/App.tsx
 
 import type { Component } from 'solid-js';
 
