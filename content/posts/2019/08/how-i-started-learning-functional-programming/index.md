@@ -3,7 +3,7 @@ title: "How I started learning Functional Programming"
 date: 2019-08-04
 cover: ./fran-legos.jpg
 description: Read my personal story how I fell in love with Functional Programming and what I used to learn the very basics of it.
-tags: ['functionalprogramming', 'story', 'meetup', 'typescript', 'javascript']
+tags: ['functional programming', 'story', 'meetup', 'typescript', 'javascript']
 ---
 
 There was a moment during past Learning Sessions when I declared, that I’ll share with you how and why I decided to dive into Functional Programming. And that day is today! I’ll guide you along the path I took to understand basic concepts of FP.
