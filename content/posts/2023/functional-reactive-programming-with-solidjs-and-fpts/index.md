@@ -2,7 +2,7 @@
 title: 'Functional Reactive Programming with SolidJS and fp-ts'
 date: 2023-01-17
 cover: ./cover.png
-description: A mini-book on benefits of using functional and rective programming and how to do it with SolidJS and fp-ts.
+description: A mini-book (or just a very, very long article) on benefits of using functional and reactive programming and how to do it with SolidJS and fp-ts.
 tags: ['solidjs', 'fp-ts', 'functional programming', 'reactive programming']
 ---
 
